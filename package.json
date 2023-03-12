@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "scripts": {
     "start": "webpack serve --config webpack.dev.config.ts",
-    "build": "npm install -g -y webpack-cli && webpack --config webpack.prod.config.ts"
+    "build": "webpack --config webpack.prod.config.ts"
   },
   "dependencies": {
     "html-webpack-plugin": "^5.5.0",
